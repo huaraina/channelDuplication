@@ -5,3 +5,6 @@ it seems easy enough...
 
 # TODO
 - settings page (decide for roles, perms, both, etc etc..)
+- <b>design the fuckinf uhhhhhhhhhhh i forgot uhm uhhh perms stuff</b>
+- the actual plugin
+- channel creation
