@@ -11,11 +11,11 @@ const ChannelDupe: Plugin = {
     ...manifest,
 
     onStart() {
-
+        // code here
     },
 
     onStop() {
-
+        Patcher.unpatchAll();
     },
 
     getSettingsPanel({ settings }) {
