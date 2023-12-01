@@ -10,8 +10,9 @@ it seems easy enough...
 - command structure: "/channeldupe {id of channel to be duped}" -> cache the permissions
 method for channel creation stuff
 
-/channeldupe (plugin hears this and starts looking for channel creation in server)
+/channeldupe {channel id} (plugin hears this and starts looking for channel creation in server)
 *user creates channel\*
 plugin notices channel creation and sends a confirm/deny popup to set permission overrides to be identical as other channel
+if no channel creation: quit after like 30s-1m
 if deny: stop asking
 if confirm: set permissions
